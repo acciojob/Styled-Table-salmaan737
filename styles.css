@@ -1,1 +1,18 @@
 /* your code */
+table{
+	border-collapse: collapse;
+	width: 100%
+}
+th, td {
+	padding: 8px
+	text-align: left;
+}
+th{
+	background-color: skyblue
+}
+tbody tr:nth-child(even){
+	background-color: red
+}
+tbody tr:hover{
+	background-color: yellow;
+}
